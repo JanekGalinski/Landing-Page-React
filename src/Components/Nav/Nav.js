@@ -4,12 +4,12 @@ import './Nav.css';
 function Nav() {
   return (
     <nav>
-      <div class="container">
+      <div className="container">
         <a href>nazwa firmy</a>
-        <div class="nav-links">
+        <div className="nav-links">
               <a href="#about">o nas</a>
               <a href="#offers">oferta</a>
-              <a class="nav-links-contact" href>kontakt</a>
+              <a className="nav-links-contact" href>kontakt</a>
         </div>
       </div>
     </nav>    

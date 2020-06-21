@@ -3,10 +3,10 @@ import './AboutEmployee.css';
 
 function AboutEmployee({firstName, lastName, job, desc, img}) {
   return (
-            <article class="about-employee">
-                <div class="about-employee-pic">  
+            <article className="about-employee">
+                <div className="about-employee-pic" style={{backgroundImage: `url('${img}')`}}>  
                 </div>
-                <div class="about-employee-text">
+                <div className="about-employee-text">
                     <h2>{firstName} {lastName} [{job}]</h2>
                     <p>{desc}</p>
                 </div>

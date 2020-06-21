@@ -8,6 +8,7 @@ const specialists = [
         firstName: "Jan",
         lastName: "Kowalski",
         job: "Frontdev",
+        img: "https://picsum.photos/500/500",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel risus commodo, convallis dolor tincidunt, ultrices nunc. Mauris a iaculis turpis. Sed ullamcorper commodo nisi, vitae congue augue luctus convallis. Vivamus faucibus commodo nunc, non cursus ligula eleifend ac. ",
         id: uuidv1(),
     },
@@ -15,6 +16,7 @@ const specialists = [
         firstName: "Adam",
         lastName: "Nowak",
         job: "Frontdev",
+        img: "https://picsum.photos/500/500",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel risus commodo, convallis dolor tincidunt, ultrices nunc. Mauris a iaculis turpis. Sed ullamcorper commodo nisi, vitae congue augue luctus convallis. Vivamus faucibus commodo nunc, non cursus ligula eleifend ac. ",
         id: uuidv1(),
     },
@@ -22,8 +24,8 @@ const specialists = [
 
 function About() {
   return (
-    <section class="about" id="about">
-        <div class="container">
+    <section className="about" id="about">
+        <div className="container">
             <h1>Nasi specjaliści</h1>
             <div>
                 {
@@ -33,6 +35,7 @@ function About() {
                                     lastName={spec.lastName}
                                     job={spec.job}
                                     desc={spec.desc}
+                                    img={spec.img}
                                     key={spec.id}
                                 >
                                 </AboutEmployee>
