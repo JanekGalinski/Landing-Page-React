@@ -1,0 +1,43 @@
+.about, .offers {
+    padding: 50px 0;
+}
+
+
+.about {
+    background-color: #F1F1F1;
+}
+
+.about h1, .about h2 {
+    font-weight: bold;
+}
+
+.about h2, .about p {
+    font-size: 18px;
+    color: black;
+}
+
+.about h1 {
+    margin-bottom: 17%;
+    color: #152D41;
+    font-size: 36px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px ) {
+    .about h1 {
+        margin-bottom: 5%;
+        text-align: left;
+    }
+
+}
+
+.about h2 {
+    margin-bottom: 6%;
+}
+
+@media screen and (min-width: 1024px ){
+    .about h2 {
+        margin-bottom: 2%;
+    }
+}
+

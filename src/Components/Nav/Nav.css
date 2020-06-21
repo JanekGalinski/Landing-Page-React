@@ -1,0 +1,38 @@
+nav {
+    background-color: #4E4E4E;
+  }
+  
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .nav-links a {
+    color: #F1F1F1;
+    font-weight: normal;
+  }
+  
+  .nav-links {
+    display: none;
+  }
+  
+  @media screen and (min-width: 1024px ) {
+    .nav-links {
+        display: flex;
+        justify-content: space-between;
+        width: 26%;
+    }
+  }
+  
+  .nav-links-contact {
+    cursor: not-allowed;
+  }

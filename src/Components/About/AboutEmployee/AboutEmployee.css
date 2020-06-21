@@ -1,0 +1,56 @@
+.about-employee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.about-employee-text {
+    margin-bottom: 10%;
+    width: 90%;
+    text-align: justify;
+}
+
+@media screen and (min-width: 1024px ) {
+    .about-employee-text {
+        margin-bottom: 1%;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1024px ) {
+    .about-employee:nth-of-type(even) {
+        flex-direction: row-reverse;
+    }
+    
+    .about-employee:nth-of-type(even) .about-employee-text {
+        text-align: right;
+    }
+    
+    .about-employee:nth-of-type(odd) {
+        flex-direction: row;
+    }
+    
+    .about-employee:nth-of-type(odd) .about-employee-text {
+        text-align: left;
+    }  
+}
+
+.about-employee-pic {
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15%;
+    border-radius: 50%;
+    background-image: url("https://picsum.photos/500/500");
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 1024px ) {
+    .about-employee-pic {
+        margin-bottom: 1%;
+    }
+}
