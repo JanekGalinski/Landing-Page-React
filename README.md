@@ -1,6 +1,6 @@
 ## About
 
-This is a simple landing page made with React. Landing page shows few sections of the company. It simulates getting employees and offered products from a database.
+This is a simple landing page made with React. Landing page presents few sections of the company. It simulates getting employees and offered products from a database.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
